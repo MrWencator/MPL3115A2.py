@@ -40,5 +40,5 @@ with open("sensor.csv", "a") as csvsoubor:
         print("cas: {0} Teplota: {1} Nadmorska vyska: {2} Tlak vzduchu: {3}".format(cas, teplota, nadmorskaVyska, tlakVzduchu))
         sensorwriter = csv.writer(csvsoubor)
         sensorwriter.writerow(hodnoty)
-        time.sleep(5)
+        time.sleep(1800)
 
